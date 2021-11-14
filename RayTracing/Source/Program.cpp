@@ -23,9 +23,9 @@ namespace Experiment
 	void Program::Initialize()
 	{
         const float aspectRatio = 16.0f / 9.0f;
-        const uint16_t imageWidth = 400;
+        const uint16_t imageWidth = 3640;
         const uint16_t imageHeight = static_cast<uint16_t>(imageWidth / aspectRatio);
-        const uint16_t samplesPerPixel = 100;
+        const uint16_t samplesPerPixel = 1;
         Image image({ imageWidth, imageHeight, "render", Format::BMP });
 
         HittableList world;
